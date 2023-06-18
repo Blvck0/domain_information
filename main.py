@@ -5,6 +5,10 @@
 import whois
 
 
+def Domain_info():
+    domain = whois.whois(url)
+
+
 url = input("Enter URL \n")
 
 try:
