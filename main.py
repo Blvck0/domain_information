@@ -11,6 +11,10 @@ def Domain_info():
     print(f"Expiration Date : {domain.expiration_date}")
     print(f"Name : {domain.name}")
     print(f"Organization : {domain.org}")
+    print(f"City : {domain.city}")
+    print(f"State : {domain.state}")
+    print(f"Country : {domain.country}")
+
 
 
 
