@@ -5,3 +5,5 @@
 import whois
 
 
+url = input("Enter URL \n")
+
