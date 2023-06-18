@@ -7,6 +7,7 @@ import whois
 
 def Domain_info():
     domain = whois.whois(url)
+    print(f"Server : {domain.whois_server}")
 
 
 url = input("Enter URL \n")
