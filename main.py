@@ -10,6 +10,8 @@ def Domain_info():
     print(f"Server : {domain.whois_server}")
     print(f"Expiration Date : {domain.expiration_date}")
     print(f"Name : {domain.name}")
+    print(f"Organization : {domain.org}")
+
 
 
 
