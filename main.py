@@ -8,6 +8,8 @@ import whois
 def Domain_info():
     domain = whois.whois(url)
     print(f"Server : {domain.whois_server}")
+    print(f"Expiration Date : {domain.expiration_date}")
+
 
 
 url = input("Enter URL \n")
