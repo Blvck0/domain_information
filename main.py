@@ -15,3 +15,4 @@ except:
 
 else:
     print("This Domain is already purchased")
+    print("Domain information \n")
