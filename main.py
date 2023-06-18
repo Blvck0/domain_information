@@ -5,7 +5,7 @@
 import whois
 
 
-def Domain_info():
+def Domain_info(link):
     domain = whois.whois(url)
     print(f"Server : {domain.whois_server}")
     print(f"Expiration Date : {domain.expiration_date}")
@@ -31,3 +31,4 @@ except:
 else:
     print("This Domain is already purchased")
     print("Domain information \n")
+    Domain_info(url)
